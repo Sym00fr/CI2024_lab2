@@ -1,0 +1,66 @@
+
+GREEDY ALGORHITM
+
+Russia   : Found a path of 167 steps, total length 42334.16km
+Italy    : Found a path of 46 steps, total length 4436.03km
+Vanuatu  : Found a path of 8 steps, total length 1475.53km
+US       : Found a path of 326 steps, total length 48050.03km
+China    : Found a path of 726 steps, total length 63962.92km
+
+
+EVOLUTIONARY ALGORHITM
+
+Uniform Selection
+
+Russia
+100%|██████████| 1000/1000 [00:21<00:00, 46.34it/s]
+Genetic Algorithm TSP Tour in Russia
+Result: Found a path of 167 steps, total length 291072.38km
+
+Italy
+100%|██████████| 1000/1000 [00:02<00:00, 353.43it/s]
+Genetic Algorithm TSP Tour in Italy
+Result: Found a path of 46 steps, total length 15882.86km
+
+Vanuatu
+100%|██████████| 1000/1000 [00:00<00:00, 1670.95it/s]
+Genetic Algorithm TSP Tour in Vanuatu
+Result: Found a path of 8 steps, total length 1499.37km
+
+China
+100%|██████████| 1000/1000 [05:28<00:00,  3.05it/s]
+Genetic Algorithm TSP Tour in China
+Result: Found a path of 726 steps, total length 942919.94km
+
+US
+100%|██████████| 1000/1000 [01:08<00:00, 14.56it/s]
+Genetic Algorithm TSP Tour in US
+Result: Found a path of 326 steps, total length 595323.10km
+
+
+Tournament Selection
+
+Russia
+100%|██████████| 1000/1000 [00:20<00:00, 48.96it/s]
+Genetic Algorithm with tournament seelction with size = 3, country: Russia
+Result:  167 steps, total length 50564.93km
+
+Italy
+100%|██████████| 1000/1000 [00:02<00:00, 337.24it/s]
+Genetic Algorithm with tournament seelction with size = 3, country: Italy
+Result:  46 steps, total length 4259.66km
+
+Vanuatu
+100%|██████████| 1000/1000 [00:00<00:00, 1126.12it/s]
+Genetic Algorithm with tournament seelction with size = 3, country: Vanuatu
+Result:  8 steps, total length 1345.54km
+
+China
+100%|██████████| 1000/1000 [05:15<00:00,  3.16it/s]
+Genetic Algorithm with tournament seelction with size = 3, country: China
+Result:  726 steps, total length 337189.47km
+
+US
+100%|██████████| 1000/1000 [01:08<00:00, 14.57it/s]
+Genetic Algorithm with tournament seelction with size = 3, country: US
+Result:  326 steps, total length 138031.48km
